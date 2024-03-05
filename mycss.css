@@ -1,0 +1,30 @@
+/* style.css*/
+h1 { font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 110px;
+  margin: 80px 30% 80px 40%;
+
+}
+
+#more {display: none;}
+
+
+.profile{
+  width: 250px;
+  height: 250px;
+  border-radius: 300px;
+  object-fit: cover;
+}
+.footer-list{list-style-type: none;
+}
+
+#footer-list{vertical-align: top;}
+
+.contact{
+  
+  display: inline-block;
+  margin: 20px 50px 20px 50px;
+
+}
+
+h6 { margin-top: 30px;
+}

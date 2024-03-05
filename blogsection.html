@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lyf with Resty.k</title>
+    <link
+      rel="stylesheet"
+      href="./css/bootstrap-5.3.3-dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="/mycss.css" />
+  </head>
+  <style>body{background-color:beige;}</style>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/homepage.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/gallery.html" target="_parent"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog posts
+              </a>
+              <ul class="dropdown-menu">
+                </li>
+                <li><a class="dropdown-item" href="#business">Business</a></li>
+                <li><a class="dropdown-item" href="#travels">Travels</a></li>
+                <li><a class="dropdown-item" href="#nature">Nature</a></li>
+                <li><a class="dropdown-item" href="#nutrition">Nutrition</a></li>
+                <li><a class="dropdown-item" href="#refactory">Refactory Academy</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#fun-facts">Fun facts</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" target="_parent"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav><br><br>
+
+    <H1>My Blog Posts</H1>
+
+    <div class="container" style="background-color: white; ">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div class="row">
+            <div class="col"><br>
+              <img
+                class="img-fluid"
+                src="/blog-images/withdrawing-money-from-atm.jpg"
+                alt="Atm"
+              />
+            </div>
+          </div>
+          <h2 id="business">Business</h2>
+          <p>
+            <b>What is the ideal mindset of a succesful businessperson? </b>
+          </p>
+          <p>
+            Business mindset: a way of thinking that enables you to uncover and
+            see problems as opportunities, and then turning those opportunities
+            into a business. It is an understanding that everything around us is
+            the result of someone having an idea and then executing it.<span
+              id="dots"
+              >...</span
+            ><span id="more">
+              An entrepreneurial mindset is characterized by curiosity,
+              creativity, risk-taking, resilience, self-efficacy,
+              problem-solving abilities, a passion for learning and growth, an
+              openness to feedback and change, and excellent communication and
+              networking skills. <br /><br /><b
+                >What is the difference between a businessperson and an
+                enterpreneur</b
+              ><br /><br />
+              An entrepreneur is an individual having an exclusive idea to
+              establish a new venture. A businessman is an individual who
+              establishes a business with an old business idea. Entrepreneurs
+              are market leaders. Businessmen are market players. So basically I
+              think it is right to say all enterpreneurs are businesspeople but
+              not all businesspeople are enterpreneurs</span
+            >
+          </p>
+          <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="row">
+            <div class="col"><br>
+              <img
+                class="img-fluid"
+                src="/blog-images/beautiful-girl.jpg"
+                alt="beautiful-girl"
+              />
+            </div>
+          </div>
+          <h2 id="travels">Travels</h2>
+          <p><b>Beautiful travel destinantions</b></p>
+          <p>
+            If you are searching for travel destinations, this is the right
+            site. <br /><br /><b>What about the source of River Nile</b
+            ><br /><br />
+            The British explorer John Hanning Speke (1827-64) is famed for being
+            the first European to visit <span id="dots1">...</span
+            ><span id="more1"
+              ><br />
+              Lake Victoria and to identify it as the source of the Nile. This
+              is located in Uganda in Jinja district in Busoga region. The
+              Basoga are the major inhabitants of Jinja district. They are very
+              friendly and hospitable people. The Basoga are well known for
+              making delicious chapatis which are used to make Uganda's special:
+              Rolex. The rolex is a combination vegetables fried in eggs, which
+              are wrapped with a chapati. Visiting the Source of the Nile is
+              surely worth while. There are many more tourist sites in Jinja.
+              Namely: Itanda falls, Rippon Falls, the palace of the
+              Kyabazinga(the traditional king of the basoga) and more.
+            </span>
+          </p>
+          <button onclick="myFunction1()" id="myBtn1">Read more</button>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="row">
+            <div class="col"><br>
+              <img
+                class="img-fluid"
+                src="/blog-images/gazelle-standing-near-trees.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <h2 id="nature">Nature</h2>
+          <p><b>Mountain Rwenzori in The Pearl of Africa</b></p>
+          <p>
+            Rwenzori Mountains are home to two of the highest peaks in
+            Africa.These famous mountains are located in Eastern DRC and Western
+            Uganda.<span id="dots2">...</span
+            ><span id="more2"
+              >The Rwenzori ranges are of great significance in Uganda because
+              the are the most permanent sources of the River Nile, and
+              constitute a vital water catchment. Their multitude of fast
+              flowing rivers, magnificent waterfalls and stratified vegetation
+              make the property exceptionally scenic and beautiful. These snow
+              capped mountains also known as the Mountains of the Moon have the
+              third highest mountain in Africa at 5,109 m (after Kilimanjaro and
+              Mount Kenya) also consisting the Park includes a much larger
+              alpine area than either, covering an area of 99,600 ha of which
+              70% lies at over 2,500 m in height.</span
+            >
+          </p>
+          <button onclick="myFunction2()" id="myBtn2">Read more</button>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="row">
+            <div class="col"><br>
+              <img
+                class="img-fluid"
+                src="/blog-images/mangoes-market.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <h2 id="nutrition">Nutrition</h2>
+          <p><b>What are the essential nutrients a body needs</b></p>
+          <p>
+            The essential nutrients are vitamins, minerals, protein, fats,
+            water, and carbohydrates.They are essential because they perform
+            different and unique functions in our body as they support the reproduction system of a person, good health and <span id="dots3">...</span
+            ><span id="more3">
+              growth <br /><br /><b>What are the roles of vitamins?</b
+              ><br /><br />
+              There are 13 vitamins which have specific functions to keep the
+              body working properly. Some vitamins help you resist infections
+              and keep your nerves healthy, while others may help your body get
+              energy from food or help your blood clot properly. By following
+              the Dietary Guidelines, you will get enough of most of these
+              vitamins from food. <br /><br /><b
+                >What are the 13 vitamins your body needs?</b
+              ><br />
+              The vitamins your body needs on a daily basis are vitamins A, C,
+              D, E, K and the B vitamins (B1, B2, B3, B5, B6, B7, B9 and B12).
+              You need vitamins C, B1, B2, B3, B5, B6, B7 and B9 in your diet
+              every day. That is because they are not stored in the body and you
+              remove any excess of them in your urine, so these vitamins need to
+              be replenished daily. Vitamins A, D, E and K are all fat-soluble,
+              and so can be stored in the body, while B12 is water soluble and
+              so can be stored in the liver. Because you store an excess of
+              these vitamins, you do not necessarily need them in your diet
+              every day, but it is important that you have enough stored to
+              equal your daily amount if you are not getting it in your
+              diet</span
+            >
+          </p>
+          <button onclick="myFunction3()" id="myBtn3">Read more</button>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="row">
+            <div class="col"><br>
+              <img
+                class="img-fluid"
+                src="/blog-images/glasses-book.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <h2 id="refactory">Refactory Academy</h2>
+          <p><b>What about Refactory Academy</b></p>
+          <p>
+            Refactory is a Tech skilling Academy which not only focuses on
+            imparting knowledge to their students, but also seeks to enhance and
+            improve the social well being of the students. While at refactory,I
+            attended various classes and <span id="dots4">...</span
+            ><span id="more4">
+              I am going to share my experience here. <br /><br /><b
+                >My experince in the software engineering class</b
+              ><br /><br />This class was facilitated by Samson Kapeyi who has a
+              great personality. His approachable nature made it easy to ask
+              questions in class while laughing at the jokes he often made. So
+              did I have fun? Yes. Did I learn something? Very many things. I
+              guess studying without play makes Resty a dull girl. Oh by the
+              way, I had forgotten to mention, I am now an HTML and CSS expert,
+              thanks to the classes I attended at Refactory academy, I have been
+              able to build this (my own) blog website. So....looking for a
+              software engineer? I am the go to person<br /><br /><b
+                >Did I love my experience in the Leadership and Personal
+                Development class</b
+              ><br /><br />
+              Yes, Of course. What did you think? This class was facilitated by
+              Julia Nansubuga a great facilitator too. I was able to learn a
+              series of strategies on how to improve my relationships with
+              others while improving myself. Were the lessons worth attending?
+              Yes, I would recommend people walk themselves into the Leardership
+              and Personal Development class</span
+            >
+          </p>
+          <button onclick="myFunction4()" id="myBtn4">Read more</button>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="row">
+            <div class="col"><br>
+              <img
+                class="img-fluid"
+                src="/blog-images/fake-news-word-concept-view.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <h2 id="fun-facts">Fun facts</h2>
+          <p>
+            Fun facts often catch us off guard and is often entertaining in the
+            best possible way. These are unusual and unexpected bits of
+            knowledge from the world of history, science and pop culture that
+            delights and will leave us astonished. Here are some fun and amazing
+            facts that will thrill and surprise you at the same time!<span
+              id="dots5"
+              >...</span
+            ><span id="more5">
+              <br /><b>Hot water will turn into ice faster than cold water.</b
+              ><br />
+              An observation conducted in which a liquid (typically water) that
+              is initially hot can freeze faster than the other liquid which is
+              cold under similar conditions.
+              <br /><b> The Mona Lisa has no eyebrows.</b><br />
+              People always wonder why Mona Lisa does not have any eyebrows.
+              This mystery has been solved, all thanks to an engineer named
+              Pascal Cotte. When Da Vinci had painted Mona Lisa, he indeed
+              painted her eyebrows but over time these eyebrows were eroded due
+              to cleaning over time to the point where it is no longer visible
+              today.
+              <br /><b>The most common name in the world is Mohammed.</b><br />
+              As per the sixth edition of the Columbia Encyclopedia (2000),
+              Muhammad is the most common name in the world including its
+              variations. More than 150 million men and boys in the world bear
+              the name Muhammad which makes it the most popular name in the
+              world.
+              <br /><b> It is impossible to lick your elbow.</b><br />
+              This is true, the entire joint of the elbow is between the upper
+              and lower arm and most people seem to think that the elbow is the
+              pointy part on the outside of their arm when they bend it.
+              <br /><b
+                >It is physically impossible for pigs to look up into the sky</b
+              ><br />
+              The anatomy of a pigs neck muscles and spine has certain
+              limitations to the movement of their head and restricts them to
+              look upwards. This makes it impossible for them to look up
+              straight to the sky.
+              <br /><b>A snail can sleep for three years.</b> <br />
+              Snails require moisture to survive. So, if there is extreme
+              weather, they can sleep up to three years. It is reported that
+              based on geography, snails often hibernate or estivate in order to
+              escape from warm climates.
+            </span>
+          </p>
+          <button onclick="myFunction5()" id="myBtn5">Read more</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-2">
+            <div class="row">
+              <div class="col">
+                <img src="/blog-images/profile.jpg" class="profile" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 d-lg-none d-xl-block">
+            <ul class="footer-list" id="footer-list">
+              <h6>Links</h6>
+              <li><a href="/homepage.html" target="_parent"></a>Home</li>
+              <li><a href="/gallery.html" target="_parent">Gallery</a></li>
+              <li><a href="/blogsection.html" target="_parent"> Blogs</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-7">
+            <h6 style="text-align: center">Contact Me</h6>
+            <ul class="footer-list">
+              <li class="contact">
+                <a href="http://www.youtube.com/@reshancreativebakes5646">
+                  <img
+                    src="/blog-images/youtube-logo-2431.png"
+                    style="width: 42px; height: 42px"
+                /></a>
+              </li>
+              <li class="contact">
+                <a
+                  href=" https://www.linkedin.com/in/kyomuhangi-resty-89368522a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                >
+                  <img
+                    src="/blog-images/icons8-linkedin-64.png"
+                    style="width: 42px; height: 42px"
+                /></a>
+              </li>
+              <li class="contact">
+                <a
+                  href="https://www.facebook.com/resty.kyomuhangi?mibextid=rS40aB7S9Ucbxw6v"
+                >
+                  <img
+                    src="/blog-images/facebook-logo-2428.png"
+                    style="width: 42px; height: 42px"
+                /></a>
+              </li>
+              <li class="contact">
+                <a
+                  href="https://www.instagram.com/invites/contact/?i=1idygrtimt393&utm_content=mqnz7fp"
+                >
+                  <img
+                    src="/blog-images/instagram-logo-8869.png"
+                    style="width: 42px; height: 42px"
+                /></a>
+              </li>
+              <li class="contact">
+                <img
+                  src="/blog-images/whatsapp logo_icon.png"
+                  style="width: 42px; height: 42px"
+                />
+                +256750999074
+              </li>
+
+              <li class="contact">
+                <img
+                  src="/blog-images/gmail-logo-2561.png"
+                  style="width: 42px; height: 42px"
+                />
+                restykyomuhang@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container p-4 pb-0">
+        <form action="">
+          <div class="row">
+            <div class="col-auto mb-4 mb-md-0">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+              <p>
+                <strong>Leave a comment</strong>
+              </p>
+            </div>
+
+            <div class="col-md-5 col-12 mb-4 mb-md-0">
+              <div data-mdb-input-init class="form-outline mb-4">
+                <input
+                  type="email"
+                  id="form5Example22"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <input
+                  type="text"
+                  id="commen-section"
+                  class="form-control"
+                  placeholder="comment"
+                />
+              </div>
+            </div>
+
+            <div class="col-auto mb-4 mb-md-0">
+              <button
+                data-mdb-ripple-init
+                type="button"
+                class="btn btn-primary mb-4"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2020 Copyright:
+        <a class="text-body" href="/homepage.html">Lyf-with-resty.k.com</a>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+
+      function myFunction1() {
+        var dots1 = document.getElementById("dots1");
+        var more1Text = document.getElementById("more1");
+        var btn1Text = document.getElementById("myBtn1");
+
+        if (dots1.style.display === "none") {
+          dots1.style.display = "inline";
+          btn1Text.innerHTML = "Read more";
+          more1Text.style.display = "none";
+        } else {
+          dots1.style.display = "none";
+          btn1Text.innerHTML = "Read less";
+          more1Text.style.display = "inline";
+        }
+      }
+
+      function myFunction2() {
+        var dots2 = document.getElementById("dots2");
+        var more2Text = document.getElementById("more2");
+        var btn2Text = document.getElementById("myBtn2");
+
+        if (dots2.style.display === "none") {
+          dots2.style.display = "inline";
+          btn2Text.innerHTML = "Read more";
+          more2Text.style.display = "none";
+        } else {
+          dots2.style.display = "none";
+          btn2Text.innerHTML = "Read less";
+          more2Text.style.display = "inline";
+        }
+      }
+
+      function myFunction3() {
+        var dots3 = document.getElementById("dots3");
+        var more3Text = document.getElementById("more3");
+        var btn3Text = document.getElementById("myBtn3");
+
+        if (dots3.style.display === "none") {
+          dots3.style.display = "inline";
+          btn3Text.innerHTML = "Read more";
+          more3Text.style.display = "none";
+        } else {
+          dots3.style.display = "none";
+          btn3Text.innerHTML = "Read less";
+          more3Text.style.display = "inline";
+        }
+      }
+
+      function myFunction4() {
+        var dots4 = document.getElementById("dots4");
+        var more4Text = document.getElementById("more4");
+        var btn4Text = document.getElementById("myBtn4");
+
+        if (dots4.style.display === "none") {
+          dots4.style.display = "inline";
+          btn4Text.innerHTML = "Read more";
+          more4Text.style.display = "none";
+        } else {
+          dots4.style.display = "none";
+          btn4Text.innerHTML = "Read less";
+          more4Text.style.display = "inline";
+        }
+      }
+
+      function myFunction5() {
+        var dots5 = document.getElementById("dots5");
+        var more5Text = document.getElementById("more5");
+        var btn5Text = document.getElementById("myBtn5");
+
+        if (dots5.style.display === "none") {
+          dots5.style.display = "inline";
+          btn5Text.innerHTML = "Read more";
+          more5Text.style.display = "none";
+        } else {
+          dots5.style.display = "none";
+          btn5Text.innerHTML = "Read less";
+          more5Text.style.display = "inline";
+        }
+      }
+    </script>
+
+    <script src="./css/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
