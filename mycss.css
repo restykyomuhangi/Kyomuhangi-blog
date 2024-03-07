@@ -1,7 +1,11 @@
 /* style.css*/
 h1 { font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 110px;
-  margin: 80px 30% 80px 40%;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-style: italic;
+  
 
 }
 
